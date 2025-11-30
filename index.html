@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - Desmita I Rumbiak</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS for theme -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            color: white;
+            padding: 100px 0;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Desmita I Rumbiak</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Keahlian</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="Desmita.jpg" alt="Foto Profil" class="profile-img mb-3">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="display-4">Halo, Saya Desmita I Rumbiak</h1>
+                    <p class="lead"> mahasiswa Teknik komputer yang ditugaskan untuk membuat web profile dari matakuliah Pemograman Web 1B.</p>
+                    <a href="#about" class="btn btn-light btn-lg">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Tentang Saya</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Biodata</h3>
+                    <p><strong>Nama:</strong> Desmita I.Rumbiak</p>
+                    <p><strong>Nim:</strong> 202452073</p>
+                    <p><strong>Tempat tanggal lahir:</strong> Manokwari,05-07-2005</p>
+                    <p><strong>Status:</strong> Mahasiswa</p>
+                    <p><strong>Hobi:</strong> Menyanyi,Menggambar</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Riwayat Pendidikan</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">SMA Advent Sanggeng </li>
+                        <li class="list-group-item">Mahasiswa Teknik Komputer,Universitas Negeri Papua </li>
+                        <li class="list-group-item">Pelatihan Menggambar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Keahlian</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML & CSS</h5>
+                            <p class="card-text">Membangun tata letak web yang responsif.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">Membuat desain responsif.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Git & GitHub</h5>
+                            <p class="card-text">Kontrol versi dan kolaborasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Portofolio</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <!-- Path gambar sudah benar -->
+          <img src="images/anime.jpg" class="card-img-top" alt="Proyek 1">
+          <div class="card-body">
+            <h5 class="card-title">Website Portofolio Responsif</h5>
+            <p class="card-text">
+              Website portofolio pribadi yang dibuat menggunakan Bootstrap 5, menampilkan keterampilan dan proyek dalam desain responsif.
+            </p>
+            <a href="#" class="btn btn-primary">Lihat Proyek</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Hubungi Saya</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3>Ikuti Saya</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Facebook</a></li>
+                        <li><a href="#" class="text-decoration-none">Instagram</a></li>
+                        <li><a href="#" class="text-decoration-none">LinkedIn</a></li>
+                        <li><a href="#" class="text-decoration-none">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Desmita Rumbiak. Hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
